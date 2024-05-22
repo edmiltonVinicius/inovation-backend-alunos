@@ -1,0 +1,7 @@
+
+HTTP_STATUS_CODE: 
+
+    - Mais detalhado: https://www.httpstatus.com.br/
+    - Mais Simples: https://www.hostinger.com.br/tutoriais/https-status
+
+
