@@ -1,11 +1,8 @@
 import pkg from "mongoose";
 const { connect, connection, disconnect } = pkg;
 
-// Query string - url de conexão com o banco de dados
-const uri =
-  "mongodb+srv://edmilton:<password>@cluster-inicial.e0mf8hq.mongodb.net/Product?retryWrites=true&w=majority&appName=Cluster-inicial";
+const uri = process.env.MONGO_DB_URL;
 
-// Objeto de configuração da conexão com o MongoDB
 const clientOptions = {
   serverApi: {
     version: "1",
